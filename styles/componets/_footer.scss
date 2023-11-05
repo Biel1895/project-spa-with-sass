@@ -1,0 +1,9 @@
+@import '../abstract/variaveis';
+
+footer {
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: $color-quaternary;
+    padding: 1.2rem;
+    color: $color-primary;
+}

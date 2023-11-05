@@ -1,0 +1,195 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #3D0C11;
+}
+nav ul li a:hover {
+  border-bottom: 3px solid #D80032;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  text-align: center;
+  padding: 3rem;
+  background-color: #F9DEC9;
+  opacity: 0.7;
+  border-radius: 50px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #3D0C11;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #D80032;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.5rem;
+  color: #D80032;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+  color: #3D0C11;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #3D0C11;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #D80032;
+  line-height: 1.25rem;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 5px solid #F9DEC9;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #F9DEC9;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #3D0C11;
+}
+#cupom .texto h2 {
+  margin: 1.75rem;
+  font-size: 1.8rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid #ffffff;
+  background: #ffffff;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: 0;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 1.625rem;
+}
+#cupom .input:hover, #cupom .inputfocus-within {
+  box-shadow: 1px 1px 8px 1px #3D0C11;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 20px;
+  background-color: #D80032;
+  color: #F9DEC9;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  border: 1px solid #D80032;
+  box-shadow: 1px 1px 10px 1px #3D0C11;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+#cupom button:hover {
+  transform: scale(1.07);
+}
+
+footer {
+  text-align: center;
+  font-size: 1.25rem;
+  background-color: #F9DEC9;
+  padding: 1.2rem;
+  color: #3D0C11;
+}
+
+#anuncio {
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#anuncio img {
+  width: 450px;
+}
+#anuncio .anuncio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #D80032;
+  padding: 2rem;
+  width: 50%;
+  background-color: #F9DEC9;
+  opacity: 0.8;
+}
+#anuncio .anuncio-container h3 {
+  margin: 0.5rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: #D80032;
+  font-weight: 300;
+}
+#anuncio .anuncio-container h4 {
+  margin: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #3D0C11;
+  margin-bottom: 5px;
+}
+#anuncio .anuncio-container p {
+  width: 80%;
+  color: #F78CA2;
+}/*# sourceMappingURL=style.css.map */
